@@ -123,3 +123,6 @@ Quando la prof chiede di *"commentare le differenze tra i metodi espliciti ed im
 2. [ ] Verifica se il problema è stiff calcolando lo Jacobiano (o la derivata semplice) per giustificare nei commenti l'eventuale instabilità di Eulero Avanti.
 3. [ ] All'interno del ciclo di Eulero Indietro, ricordati di passare la variabile x come incognita e il valore y_indietro[k] come termine noto agganciato alla funzione lambda di fsolve.
 4. [ ] Quando plotti i grafici, usa sempre curve continue per le soluzioni numeriche e marcatori discreti (es. 'o') per evidenziare i nodi della griglia temporale.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
