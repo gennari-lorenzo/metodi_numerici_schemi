@@ -5,7 +5,12 @@
 
 ## 🎯 Obiettivo dell'Esercizio
 In questa tipologia d'esame si affronta un problema di Cauchy (equazione differenziale ordinaria del primo grado con condizione iniziale):
-$$\begin{cases} y'(t) = f(t, y(t)) \quad t \in [t_0, t_{\text{end}}] \\\\ y(t_0) = y_0 \end{cases}$$
+$$
+\begin{cases}
+y'(t) = f(t, y(t)) \quad t \in [t_0, t_{\text{end}}] \\
+y(t_0) = y_0
+\end{cases}
+$$
 
 L'obiettivo è calcolare l'approssimazione numerica della funzione soluzione $y(t)$ su una griglia discreta di tempi con passo $h$, confrontando metodi **espliciti** (Eulero Avanti, RK4) e **impliciti** (Eulero Indietro), valutandone l'accuratezza rispetto alla soluzione analitica esatta e discutendo i vincoli di stabilità algoritmica.
 
