@@ -34,7 +34,7 @@ $$y_k = \frac{1 - \cos^2(x_k)}{1 + \cos(x_k)} = \frac{\sin^2(x_k)}{1 + \cos(x_k)
 L'instabilità per cancellazione numerica dipende dal segno di $k$: se $k \to +\infty$ l'instabilità è sulla sottrazione in $x_1$, mentre se $k \to -\infty$ l'instabilità si sposta sulla somma in $x_2$. 
 
 Per stabilizzare l'algoritmo in modo universale, si calcola prima la radice sicuramente stabile concordando il segno di $k$ con quello davanti alla radice quadrata (somma di valori concordi):
-$$x_{\text{stabile}} = k + \operatorname{sgn}(k)\sqrt{k^2 - 1}$$
+$$x_{\text{stabile}} = k + \mathrm{sgn}(k)\sqrt{k^2 - 1}$$
 
 La seconda radice si ricava poi senza alcuna cancellazione distruttiva sfruttando la relazione del prodotto delle radici ($x_1 \cdot x_2 = \frac{c}{a} = 1$):
 $$x_{\text{alternativa}} = \frac{1}{x_{\text{stabile}}}$$
