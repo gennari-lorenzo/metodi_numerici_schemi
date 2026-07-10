@@ -122,3 +122,6 @@ ho(B_J) < 1$, il che giustifica teoricamente perché il metodo di Gauss-Seidel r
 ho < 1$, avvia il ciclo `while` per aggiornare il vettore della soluzione [cite: 1].
 5. [ ] Usa il residuo relativo corretto ($\frac{\|Ax - b\|}{\|b\|}$) come criterio di controllo dello stop [cite: 1].
 6. [ ] Scrivi il commento finale confrontando il numero di iterazioni reali con i raggi spettrali teorici calcolati [cite: 1].
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
