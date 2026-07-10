@@ -109,3 +109,6 @@ Quando viene richiesto di *"commentare i risultati ottenuti evidenziando le diff
 2. [ ] Per la bisezione, verifica che $f(a) \cdot f(b) < 0$ prima di far partire qualsiasi ciclo.
 3. [ ] Come punto di partenza $x_0$ per Newton, se il testo non lo specifica, usa il punto medio dell'intervallo di bisezione o l'estremo in cui $f(x) \cdot f''(x) > 0$ (Condizioni di Fourier).
 4. [ ] Controlla che le tolleranze richieste siano applicate correttamente come ampiezza dell'intervallo per Bisezione e come scarto assoluto $|x_{\text{new}} - x|$ per Newton.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
