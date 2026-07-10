@@ -116,3 +116,6 @@ Quando la prof ti chiede di *"valutare l'andamento degli errori sperimentali del
 2. [ ] Se usi il metodo di **Simpson**, assicurati al 100% che il parametro `N` inserito nel codice sia un numero **pari**.
 3. [ ] Nello slicing di Simpson con NumPy, ricorda l'indicizzazione: `1:-1:2` seleziona i nodi interni dispari, mentre `2:-1:2` seleziona i nodi interni pari.
 4. [ ] Se viene richiesto di trovare il valore minimo di $N$ per garantire un errore inferiore a una tolleranza `tol`, implementa un ciclo `while` incrementando $N$ di volta in volta finché l'errore calcolato non scende sotto la soglia.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
