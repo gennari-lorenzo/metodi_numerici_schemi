@@ -102,3 +102,6 @@ Quando la prof ti chiede di *"commentare la differenza tra l'approccio dei minim
 3. [ ] Usa `np.polyval(coeff, x_punti)` per plottare o calcolare i valori nei punti d'interesse.
 4. [ ] Se la prof chiede l'interpolazione esatta tramite risoluzione del sistema, ricorda che la matrice di Vandermonde si implementa con `np.vander(x)`.
 5. [ ] Se compare la funzione di Runge ($f(x) = \frac{1}{1 + 25x^2}$), scrivi immediatamente la formula dei nodi di Chebyshev per ottenere il massimo dei voti.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
