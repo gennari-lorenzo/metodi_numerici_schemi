@@ -136,3 +136,6 @@ Quando la prof chiede di *"giustificare la scelta della scomposizione effettuata
 4. [ ] Incolla il blocco risolutivo triangolare (`spl.solve_triangular`) corrispondente alla scelta fatta.
 5. [ ] Calcola e mostra l'errore relativo e il residuo relativo.
 6. [ ] Scrivi la spiegazione teorica precompilata nella cella Markdown motivando la scelta in base alle soglie numeriche ottenute.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
