@@ -17,7 +17,7 @@ Viene richiesto di risolvere il problema sia tramite le **Equazioni Normali** (m
 ### 📂 METODO 1: Equazioni Normali
 *   **Principio Teorico:** Minimizzare il residuo equivale geometricamente a imporre che il residuo stesso sia ortogonale allo spazio generato dalle colonne di $A$. Ciò porta al sistema quadrato ($n \times n$):
     $$(A^T A)x = A^T b$$
-*   **Condizione di Esistenza:** La matrice quadrata $A^T A$ è simmetrica e definita positiva se e solo se la matrice $A$ ha rango massimo ($\rank(A) = n$, ovvero colonne linearmente indipendenti). In tal caso, si applica la fattorizzazione di **Cholesky** ($LL^T$) per risolvere il sistema in modo efficiente.
+*   **Condizione di Esistenza:** La matrice quadrata $A^T A$ è simmetrica e definita positiva se e solo se la matrice $A$ ha rango massimo ($rank(A) = n$, ovvero colonne linearmente indipendenti). In tal caso, si applica la fattorizzazione di **Cholesky** ($LL^T$) per risolvere il sistema in modo efficiente.
 *   **Svantaggio Computazionale:** Il condizionamento del sistema si deteriora drasticamente: $\kappa(A^T A) = [\kappa(A)]^2$. Se $A$ è moderatamente mal condizionata, $A^T A$ diventa numericamente singolare o quasi, amplificando gli errori di arrotondamento.
 
 ### 📂 METODO 2: Fattorizzazione QR
