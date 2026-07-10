@@ -136,3 +136,6 @@ Quando la prof chiede di *"commentare i risultati, la velocità e l'importanza d
 3. [ ] Nel metodo delle potenze inverse, applica lo shift alla diagonale tramite `A - sigma * np.eye(n)`.
 4. [ ] **MANDATORIO:** Non usare `np.linalg.inv()`. Applica la scomposizione `spl.lu()` prima del ciclo `while` per risolvere i sistemi interni.
 5. [ ] Ricorda la formula finale di ripristino dell'autovalore reale: $\lambda = \sigma + \frac{1}{\lambda_{inv}}$.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
