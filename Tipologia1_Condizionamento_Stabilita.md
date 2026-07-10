@@ -94,3 +94,6 @@ Quando la prof ti chiede di *"analizzare l'andamento dell'errore relativo a segu
 3. [ ] Calcola l'errore relativo impostando la formula stabile come denominatore [cite: 1].
 4. [ ] Genera il grafico usando rigorosamente `plt.loglog` (scala logaritmica su entrambi gli assi) [cite: 1].
 5. [ ] Scrivi il commento teorico nella cella di testo sottostante menzionando **cancellazione** e **spacing** [cite: 1].
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
