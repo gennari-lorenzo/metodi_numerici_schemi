@@ -108,3 +108,6 @@ Quando viene richiesto di *"commentare l'accuratezza e la stabilità dei metodi 
 3. [ ] Nelle equazioni normali, esegui i prodotti matriciali nell'ordine corretto (`A.T @ A`) ed evita l'inversione esplicita.
 4. [ ] Nella fattorizzazione QR, usa l'argomento `mode='economic'` in `scipy.linalg.qr` per estrarre direttamente la porzione quadrata superiore di $R$ e ottimizzare i tempi di calcolo.
 5. [ ] Ricorda che la norma del residuo numerico finale non sarà mai nulla (a differenza dei sistemi quadrati determinati), ma rappresenterà la minima distanza euclidea geometricamente possibile.
+
+---
+[⬅️ Torna all'Indice Principale](README.md)
