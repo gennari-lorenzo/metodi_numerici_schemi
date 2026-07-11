@@ -19,7 +19,7 @@ Quando il testo chiede di *"spiegare perché il calcolo diretto soffre di instab
 
 ## 🛠️ 2. I Due Pattern Algebrici di Stabilizzazione (Da Imparare a Memoria)
 
-### 🔹 Caso A: Funzioni Trigonometriche ($1 - \cos(x)$)
+### 🔹 Caso A: Funzioni Trigonometriche ($$1 - \cos(x)$$)
 Si moltiplica e si divide per il coniugato $(1 + \cos(x))$ per eliminare la sottrazione:
 
 $$y_k = 1 - \cos(x_k) = \frac{(1 - \cos(x_k))(1 + \cos(x_k))}{1 + \cos(x_k)}$$
